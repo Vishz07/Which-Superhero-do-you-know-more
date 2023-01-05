@@ -18,7 +18,7 @@ var userAnswer = readlineSync.question(question)
     console.log("dont worry no deductions on wrong answers")
     console.log("----------------------")
   }
-  console.log ("Congrats you have finished the Superhero game")
+  
 }
 
 
@@ -46,3 +46,6 @@ for(i=0;i<questions.length;i++){
 var currentquestion = questions[i]
   Game(currentquestion.question,currentquestion.answer)
 }
+
+console.log ("Congrats you have finished the Superhero game")
+console.log("Your final score is ", score)
